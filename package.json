@@ -1,0 +1,43 @@
+{
+  "name": "evidentauditdiscordbot",
+  "version": "1.0.0",
+  "description": "Official Discord Bot for Evident Audit",
+  "main": "bot.js",
+  "scripts": {
+    "dev": "nodemon bot.js",
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himakhaitan/evidentAuditDiscordBot.git"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "discordbot",
+    "bot",
+    "evident",
+    "audit",
+    "finance",
+    "tech",
+    "community",
+    "discordJS"
+  ],
+  "author": "Himanshu Khaitan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/himakhaitan/evidentAuditDiscordBot/issues"
+  },
+  "homepage": "https://github.com/himakhaitan/evidentAuditDiscordBot#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.31.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
+  }
+}
