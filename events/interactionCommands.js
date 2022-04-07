@@ -1,7 +1,7 @@
 const { help } = require("../utils/commands");
 
 // Components import
-const Helper = require("../components/help");
+const {Helper} = require("../components/help");
 
 module.exports = {
   name: "interactionCreate",
