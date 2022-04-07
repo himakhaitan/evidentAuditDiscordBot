@@ -1,16 +1,24 @@
 const { help } = require("../utils/commands");
 
+// Components import
+const Helper = require("../components/help");
+
 module.exports = {
   name: "interactionCreate",
   on: true,
   async execute(interaction) {
-    console.log(interaction);
     if (!interaction.isCommand()) return;
 
+    // Getting Command Name
     const { commandName } = interaction;
-    console.log(interaction);
-    if (commandName === help) {
-      await interaction.reply("Pong!");
+
+    switch (commandName) {
+      case help:
+        Helper(interaction);
+        break;
+
+      default:
+        break;
     }
   },
 };
