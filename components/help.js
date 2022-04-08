@@ -4,6 +4,8 @@ const {
   MessageSelectMenu,
 } = require("discord.js");
 
+const { authorInfo, embedColor } = require("../config");
+
 // Message Select Menu Data
 const helpOptions = [
   {
@@ -47,21 +49,15 @@ const Helper = async (interaction) => {
       .addOptions(helpOptions)
   );
   const embed = new MessageEmbed()
-    .setColor("#56BBF1")
+    .setColor(embedColor)
     .setDescription("Please choose a category from dropdown")
     .setAuthor(
-      {
-        name: "Help for Evident Audit",
-        url: "https://twitter.com/evidentaudit",
-        iconURL:
-          "https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/brand/logo.png?raw=true",
-      }
+      authorInfo
       //  [Method is Deprecated!]  "Help for Evident Audit","https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/brand/logo.png?raw=true"
     );
 
   await interaction.reply({
     components: [row],
-    ephemeral: true,
     embeds: [embed],
   });
 };
@@ -73,50 +69,39 @@ const helpCategory = async (interaction) => {
   // Embed Creation
 
   const messageEmbed = new MessageEmbed()
-    .setColor("#56BBF1")
-    .setAuthor({
-      name: "Help for Evident Audit",
-      url: "https://twitter.com/evidentaudit",
-      iconURL:
-        "https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/brand/logo.png?raw=true",
-    })
+    .setColor(embedColor)
+    .setAuthor(authorInfo)
     .setDescription(`${selection} Command List`);
 
   // Switch Case for possible enteries
   switch (selection) {
     case "Administrator":
       await interaction.update({
-        ephemeral: true,
         embeds: [messageEmbed],
       });
       break;
     case "Mods":
       await interaction.update({
-        ephemeral: true,
         embeds: [messageEmbed],
       });
       break;
     case "Utilities":
       await interaction.update({
-        ephemeral: true,
         embeds: [messageEmbed],
       });
       break;
     case "Server":
       await interaction.update({
-        ephemeral: true,
         embeds: [messageEmbed],
       });
       break;
     case "Info":
       await interaction.update({
-        ephemeral: true,
         embeds: [messageEmbed],
       });
       break;
     case "Dev":
       await interaction.update({
-        ephemeral: true,
         embeds: [messageEmbed],
       });
       break;

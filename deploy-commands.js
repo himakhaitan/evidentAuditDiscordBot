@@ -27,7 +27,7 @@ const rest = new REST({ version: "9" }).setToken(token);
     console.log("Started refreshing application (/) commands.");
 
     // Global Commands Push
-    
+
     // await rest.put(Routes.applicationCommands(clientId), { body: commands });
 
     // Guild Specific Code

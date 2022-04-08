@@ -1,7 +1,9 @@
-const { help } = require("../utils/commands");
+const { help, about_us } = require("../utils/commands");
 
 // Components import
-const {Helper} = require("../components/help");
+const { Helper } = require("../components/help");
+const { About } = require("../components/about_us");
+
 
 module.exports = {
   name: "interactionCreate",
@@ -16,7 +18,9 @@ module.exports = {
       case help:
         Helper(interaction);
         break;
-
+      case about_us:
+        About(interaction);
+        break;
       default:
         break;
     }
