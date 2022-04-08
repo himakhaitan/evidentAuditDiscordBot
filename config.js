@@ -1,5 +1,4 @@
 const authorInfo = {
-  name: "Help for Evident Audit",
   url: "https://twitter.com/evidentaudit",
   iconURL:
     "https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/brand/logo.png?raw=true",

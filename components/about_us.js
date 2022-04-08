@@ -28,7 +28,10 @@ const About = async (interaction) => {
   // Embed Creation
   const embed = new MessageEmbed()
     .setColor(embedColor)
-    .setAuthor(authorInfo)
+    .setAuthor({
+      ...authorInfo,
+      name: "About Evident Audit"
+    })
     .setTitle("About Us")
     .setURL(authorInfo.url)
     .setFooter({

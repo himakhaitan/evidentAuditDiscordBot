@@ -52,7 +52,10 @@ const Helper = async (interaction) => {
     .setColor(embedColor)
     .setDescription("Please choose a category from dropdown")
     .setAuthor(
-      authorInfo
+      {
+        ...authorInfo,
+        name: "Help for Evident Audit",
+      }
       //  [Method is Deprecated!]  "Help for Evident Audit","https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/brand/logo.png?raw=true"
     );
 
@@ -70,7 +73,10 @@ const helpCategory = async (interaction) => {
 
   const messageEmbed = new MessageEmbed()
     .setColor(embedColor)
-    .setAuthor(authorInfo)
+    .setAuthor({
+      ...authorInfo,
+      name: "Help for Evident Audit",
+    })
     .setDescription(`${selection} Command List`);
 
   // Switch Case for possible enteries
