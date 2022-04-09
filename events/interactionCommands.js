@@ -1,10 +1,10 @@
-const { help, about_us, ask_help } = require("../utils/commands");
+const { help, about_us, ask_help, avatar } = require("../utils/commands");
 
 // Components import
 const { Helper } = require("../components/help");
 const { About } = require("../components/about_us");
 const { AskHelp } = require("../components/ask_help");
-
+const { Avatar } = require("../components/avatar");
 module.exports = {
   name: "interactionCreate",
   on: true,
@@ -24,6 +24,8 @@ module.exports = {
       case ask_help:
         AskHelp(interaction);
         break;
+      case avatar:
+        Avatar(interaction);
       default:
         break;
     }
