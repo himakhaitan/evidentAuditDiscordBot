@@ -24,6 +24,8 @@ const Clear = async (interaction) => {
       text: `Requested by ${user.tag}`,
       iconURL: user.displayAvatarURL(),
     });
+
+  // Reply
   await interaction.reply({
     embeds: [embed],
   });

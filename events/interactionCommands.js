@@ -5,6 +5,7 @@ const {
   avatar,
   rules,
   clear,
+  create_embed,
 } = require("../utils/commands");
 
 // Components import
@@ -14,6 +15,8 @@ const { AskHelp } = require("../components/ask_help");
 const { Avatar } = require("../components/avatar");
 const { Rules } = require("../components/rules");
 const { Clear } = require("../components/clear");
+const { CreateEmbed } = require("../components/create_embed");
+
 module.exports = {
   name: "interactionCreate",
   on: true,
@@ -40,6 +43,9 @@ module.exports = {
         break;
       case clear:
         Clear(interaction);
+        break;
+      case create_embed:
+        CreateEmbed(interaction);
         break;
       default:
         break;
