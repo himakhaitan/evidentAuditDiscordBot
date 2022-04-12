@@ -16,4 +16,8 @@ const commands = {
   suggest: "suggest",
 };
 
+/*
+  - Create an Invite
+*/
+
 module.exports = commands;
