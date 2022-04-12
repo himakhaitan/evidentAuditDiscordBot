@@ -1,5 +1,5 @@
 // Configuiring Dotenv for environment variables
-require('dotenv').config();
+require("dotenv").config();
 
 // Loading Slash Commands
 require("./deploy-commands");
@@ -11,21 +11,23 @@ const fs = require("fs");
 const token = process.env.TOKEN;
 
 // Importing Classes from DiscordJS
-const {Client, Intents} = require("discord.js");
+const { Client, Intents } = require("discord.js");
 
 // Initialising an Instance of Client
-const client = new Client({intents: [Intents.FLAGS.GUILDS]});
+const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
 // Importing Events
-const eventFiles = fs.readdirSync('./events').filter(file => file.endsWith('.js'));
+const eventFiles = fs
+  .readdirSync("./events")
+  .filter((file) => file.endsWith(".js"));
 
 for (const file of eventFiles) {
-	const event = require(`./events/${file}`);
-	if (event.once) {
-		client.once(event.name, (...args) => event.execute(...args));
-	} else {
-		client.on(event.name, (...args) => event.execute(...args));
-	}
+  const event = require(`./events/${file}`);
+  if (event.once) {
+    client.once(event.name, (...args) => event.execute(...args));
+  } else {
+    client.on(event.name, (...args) => event.execute(...args));
+  }
 }
 
 // Client Login

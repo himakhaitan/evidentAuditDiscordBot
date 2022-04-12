@@ -4,6 +4,7 @@ const {
   ask_help,
   avatar,
   rules,
+  clear,
 } = require("../utils/commands");
 
 // Components import
@@ -12,7 +13,7 @@ const { About } = require("../components/about_us");
 const { AskHelp } = require("../components/ask_help");
 const { Avatar } = require("../components/avatar");
 const { Rules } = require("../components/rules");
-
+const { Clear } = require("../components/clear");
 module.exports = {
   name: "interactionCreate",
   on: true,
@@ -36,6 +37,9 @@ module.exports = {
         Avatar(interaction);
       case rules:
         Rules(interaction);
+        break;
+      case clear:
+        Clear(interaction);
         break;
       default:
         break;
