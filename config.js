@@ -10,6 +10,7 @@ const emoji = {
   twitter: "961985224730886174",
   linkedin: "902878634870714409",
   github: "902878634082185276",
+  scam: "927206837202354206"
 };
 
 module.exports = {
