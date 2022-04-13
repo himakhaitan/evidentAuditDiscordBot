@@ -1,7 +1,15 @@
-const { MessageEmbed } = require("discord.js");
-const { embedColor, authorInfo } = require("../config");
+const { MessageEmbed, MessageActionRow, MessageButton } = require("discord.js");
+const { embedColor, authorInfo, emoji } = require("../config");
 
 const Vote = async (interaction) => {
+  const row = new MessageActionRow().addComponents(
+    new MessageButton()
+      .setEmoji(emoji.pepeyes)
+      .setStyle("LINK")
+      .setURL("https://www.github.com/himakhaitan")
+      .setLabel("Vote")
+  );
+
   const embed = new MessageEmbed()
     .setAuthor({
       ...authorInfo,
@@ -14,6 +22,7 @@ const Vote = async (interaction) => {
     .setTimestamp();
 
   await interaction.reply({
+    components: [row],
     embeds: [embed],
   });
 };

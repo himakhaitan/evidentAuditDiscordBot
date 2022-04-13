@@ -17,7 +17,8 @@ const commands = {
 };
 
 /*
-  - Create an Invite
+  - Create an Invite for the server
+  - 
 */
 
 module.exports = commands;

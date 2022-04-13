@@ -13,6 +13,7 @@ const emoji = {
   linkedin: "902878634870714409",
   github: "902878634082185276",
   scam: "927206837202354206",
+  pepeyes: "927212874584178708",
 };
 
 module.exports = {
