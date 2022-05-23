@@ -7,6 +7,7 @@ const {
   vote,
   clear,
   create_embed,
+  socials,
 } = require("../utils/commands");
 
 // Components import
@@ -18,6 +19,7 @@ const { Rules } = require("../components/rules");
 const { Clear } = require("../components/clear");
 const { CreateEmbed } = require("../components/create_embed");
 const { Vote } = require("../components/vote");
+const { Socials } = require("../components/socials");
 
 module.exports = {
   name: "interactionCreate",
@@ -51,6 +53,9 @@ module.exports = {
         break;
       case vote:
         Vote(interaction);
+        break;
+      case socials:
+        Socials(interaction);
         break;
       default:
         break;
