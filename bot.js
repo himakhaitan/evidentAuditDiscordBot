@@ -32,3 +32,7 @@ for (const file of eventFiles) {
 
 // Client Login
 client.login(token);
+
+// DB Connection
+const { monogoConnection } = require("./dbConnection");
+monogoConnection(process.env.DB_URL);
