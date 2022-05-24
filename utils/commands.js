@@ -9,10 +9,10 @@ const commands = {
   help: "help", // done
   poll: "poll",
   rules: "rules", // done
-  community_count: "community_count",
-  socials: "socials",
-  owner: "owner",
-  vote: "vote",
+  community_count: "community_count", //done
+  socials: "socials", //done
+  owner: "owner", 
+  vote: "vote", //done
   suggest: "suggest",
 };
 

@@ -24,4 +24,6 @@ const Schema = new Schema({
     }]
 });
 
-const Voting = model('Vote', Schema);
+const Pole = model('Pole', Schema);
+
+module.exports = Pole;

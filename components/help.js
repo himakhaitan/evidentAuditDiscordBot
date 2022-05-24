@@ -135,6 +135,9 @@ const helpCategory = async (interaction) => {
         {
           name: "`community_count`",
           value: "Displays the server community count",
+        }, {
+          name: "`owner`",
+          value: "Displays the server owner",
         }
       );
       await interaction.update({

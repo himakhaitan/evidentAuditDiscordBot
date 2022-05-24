@@ -8,6 +8,7 @@ const {
   clear,
   create_embed,
   socials,
+  owner,
   community_count,
 } = require("../utils/commands");
 
@@ -21,7 +22,8 @@ const { Clear } = require("../components/clear");
 const { CreateEmbed } = require("../components/create_embed");
 const { Vote } = require("../components/vote");
 const { Socials } = require("../components/socials");
-const {Community_count} = require("../components/community_count");
+const { Community_count } = require("../components/community_count");
+const { Owner } = require("../components/owner");
 
 module.exports = {
   name: "interactionCreate",
@@ -62,6 +64,8 @@ module.exports = {
       case community_count:
         Community_count(interaction);
       default:
+      case owner:
+        Owner(interaction);
         break;
     }
   },
