@@ -76,8 +76,10 @@ const helpCategory = async (interaction) => {
     .setAuthor({
       ...authorInfo,
       name: "Help for Evident Audit",
-    })
-    .setDescription(`${selection} Command List`);
+    }).setFooter({
+      text: interaction.user.tag,
+      iconURL: interaction.user.displayAvatarURL(),
+    });
 
   // Switch Case for possible enteries
   switch (selection) {
@@ -102,6 +104,10 @@ const helpCategory = async (interaction) => {
       });
       break;
     case "Info":
+      messageEmbed.addFields({
+        name: "Community Count",
+        value: "/community_count"
+      })
       await interaction.update({
         embeds: [messageEmbed],
       });
