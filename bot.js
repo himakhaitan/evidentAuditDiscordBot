@@ -14,7 +14,13 @@ const token = process.env.TOKEN;
 const { Client, Intents } = require("discord.js");
 
 // Initialising an Instance of Client
-const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
+const client = new Client({
+  intents: [
+    Intents.FLAGS.GUILDS,
+    Intents.FLAGS.GUILD_MESSAGES,
+    Intents.FLAGS.GUILD_MESSAGE_REACTIONS,
+  ],
+});
 
 // Importing Events
 const eventFiles = fs

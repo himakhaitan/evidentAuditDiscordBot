@@ -1,14 +1,14 @@
 const commands = {
-  about_us: "about_us",
-  ask_help: "ask_help",
-  avatar: "avatar",
-  reward: "reward",
-  bump_remind: "bump_remind",
-  clear: "clear",
-  create_embed: "create_embed",
-  help: "help",
+  about_us: "about_us", // done
+  ask_help: "ask_help", // done
+  avatar: "avatar", // done
+  reward: "reward", 
+  bump_remind: "bump_remind", 
+  clear: "clear", // done
+  create_embed: "create_embed", // done
+  help: "help", // done
   poll: "poll",
-  rules: "rules",
+  rules: "rules", // done
   community_count: "community_count",
   socials: "socials",
   owner: "owner",
