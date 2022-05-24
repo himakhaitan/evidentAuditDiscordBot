@@ -9,11 +9,6 @@ const { authorInfo, embedColor } = require("../config");
 // Message Select Menu Data
 const helpOptions = [
   {
-    label: "Administrator",
-    description: "Commands for Administrator Category",
-    value: "Administrator",
-  },
-  {
     label: "Mods",
     description: "Commands for Mods Category",
     value: "Mods",
@@ -32,12 +27,7 @@ const helpOptions = [
     label: "Info",
     description: "Commands for Info Category",
     value: "Info",
-  },
-  {
-    label: "Dev",
-    description: "Commands for Dev Category",
-    value: "Dev",
-  },
+  }
 ];
 
 // Initial function to execute after `/help` command
@@ -76,43 +66,77 @@ const helpCategory = async (interaction) => {
     .setAuthor({
       ...authorInfo,
       name: "Help for Evident Audit",
-    }).setFooter({
+    })
+    .setDescription(`**${selection}** Commands`)
+    .setFooter({
       text: interaction.user.tag,
       iconURL: interaction.user.displayAvatarURL(),
     });
 
   // Switch Case for possible enteries
   switch (selection) {
-    case "Administrator":
-      await interaction.update({
-        embeds: [messageEmbed],
-      });
-      break;
     case "Mods":
+      messageEmbed.setFields({
+        name: "`clear`",
+        value: "Clear the chat",
+      });
       await interaction.update({
         embeds: [messageEmbed],
       });
       break;
     case "Utilities":
+      messageEmbed.setFields(
+        {
+          name: "`ask_help`",
+          value: "Seek help from peers",
+        },
+        {
+          name: "`avatar`",
+          value: "Get avatar of a user",
+        },
+        {
+          name: "`create_embed`",
+          value: "Create an embed",
+        },
+        {
+          name: "`help`",
+          value: "Access help menu",
+        }
+      );
       await interaction.update({
         embeds: [messageEmbed],
       });
       break;
     case "Server":
+      messageEmbed.setFields(
+        {
+          name: "`about_us`",
+          value: "Displays the server information",
+        },
+        {
+          name: "`rules`",
+          value: "Displays the server rules",
+        },
+        {
+          name: "`vote`",
+          value: "Help server grow with your vote",
+        }
+      );
       await interaction.update({
         embeds: [messageEmbed],
       });
       break;
     case "Info":
-      messageEmbed.addFields({
-        name: "Community Count",
-        value: "/community_count"
-      })
-      await interaction.update({
-        embeds: [messageEmbed],
-      });
-      break;
-    case "Dev":
+      messageEmbed.setFields(
+        {
+          name: "`socials`",
+          value: "Displays the server socials",
+        },
+        {
+          name: "`community_count`",
+          value: "Displays the server community count",
+        }
+      );
       await interaction.update({
         embeds: [messageEmbed],
       });
