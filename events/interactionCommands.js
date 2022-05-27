@@ -10,6 +10,7 @@ const {
   socials,
   owner,
   community_count,
+  suggest,
 } = require("../utils/commands");
 
 // Components import
@@ -24,6 +25,7 @@ const { Vote } = require("../components/vote");
 const { Socials } = require("../components/socials");
 const { Community_count } = require("../components/community_count");
 const { Owner } = require("../components/owner");
+const {Suggest} = require("../components/suggest");
 
 module.exports = {
   name: "interactionCreate",
@@ -63,10 +65,11 @@ module.exports = {
         break;
       case community_count:
         Community_count(interaction);
-      default:
       case owner:
         Owner(interaction);
         break;
+      case suggest:
+        Suggest(interaction);
     }
   },
 };

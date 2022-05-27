@@ -11,9 +11,9 @@ const commands = {
   rules: "rules", // done
   community_count: "community_count", //done
   socials: "socials", //done
-  owner: "owner", 
+  owner: "owner", // done
   vote: "vote", //done
-  suggest: "suggest",
+  suggest: "suggest", //done
 };
 
 /*
