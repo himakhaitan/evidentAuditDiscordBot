@@ -7,13 +7,14 @@ const commands = {
   clear: "clear", // done
   create_embed: "create_embed", // done
   help: "help", // done
-  poll: "poll",
+  poll: "poll", 
   rules: "rules", // done
   community_count: "community_count", //done
   socials: "socials", //done
   owner: "owner", // done
   vote: "vote", //done
   suggest: "suggest", //done
+  create_invite: "create_invite" // done
 };
 
 /*

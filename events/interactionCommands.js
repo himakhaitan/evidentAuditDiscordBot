@@ -11,6 +11,7 @@ const {
   owner,
   community_count,
   suggest,
+  create_invite,
 } = require("../utils/commands");
 
 // Components import
@@ -25,7 +26,8 @@ const { Vote } = require("../components/vote");
 const { Socials } = require("../components/socials");
 const { Community_count } = require("../components/community_count");
 const { Owner } = require("../components/owner");
-const {Suggest} = require("../components/suggest");
+const { Suggest } = require("../components/suggest");
+const { Create_invite } = require("../components/create_invite");
 
 module.exports = {
   name: "interactionCreate",
@@ -70,6 +72,10 @@ module.exports = {
         break;
       case suggest:
         Suggest(interaction);
+        break;
+      case create_invite:
+        Create_invite(interaction);
+        break;
     }
   },
 };
