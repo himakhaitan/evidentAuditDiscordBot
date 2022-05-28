@@ -1,6 +1,6 @@
 const {Schema, model} = require("mongoose");
 
-const Schema = new Schema({
+const PollSchema = new Schema({
     creator: {
         
     },
@@ -24,6 +24,6 @@ const Schema = new Schema({
     }]
 });
 
-const Pole = model('Pole', Schema);
+const Pole = model('Pole', PollSchema);
 
 module.exports = Pole;
