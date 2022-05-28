@@ -13,6 +13,7 @@ const {
   suggest,
   create_invite,
   reward,
+  poll,
 } = require("../utils/commands");
 
 // Components import
@@ -23,6 +24,7 @@ const { Avatar } = require("../components/avatar");
 const { Rules } = require("../components/rules");
 const { Clear } = require("../components/clear");
 const { CreateEmbed } = require("../components/create_embed");
+const { Poll } = require("../components/poll");
 const { Vote } = require("../components/vote");
 const { Socials } = require("../components/socials");
 const { Community_count } = require("../components/community_count");
@@ -81,6 +83,11 @@ module.exports = {
       case reward:
         Reward(interaction);
         break;
+      case poll:
+        Poll(interaction);
+        break;
     }
   },
 };
+
+// End of File

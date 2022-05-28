@@ -2,7 +2,7 @@ const commands = {
   about_us: "about_us", // done
   ask_help: "ask_help", // done
   avatar: "avatar", // done
-  reward: "reward", 
+  reward: "reward", // done
   bump_remind: "bump_remind", 
   clear: "clear", // done
   create_embed: "create_embed", // done
