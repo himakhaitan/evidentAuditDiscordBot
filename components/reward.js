@@ -5,6 +5,15 @@ const { embedColor, authorInfo } = require("../config");
 const Reward = async (interaction) => {
   const tagged_user = interaction.options.getMember("user");
 
+  //  Checking for Bot
+
+  if (tagged_user.user.bot || interaction.user.bot) {
+    if (interaction.user.bot) {
+      return interaction.reply("Bot's can't use this command!");
+    }
+    return interaction.reply("You can't reward bots!");
+  }
+
   try {
     const exisiting_user = await User.findOne({ discord_id: tagged_user.id });
     let new_user;
@@ -23,7 +32,7 @@ const Reward = async (interaction) => {
     }
 
     const embed = new MessageEmbed()
-      .setTitle("Reward")
+      .setTitle("Reward Alert 🎉")
       .setColor(embedColor)
       .setAuthor({
         name: `Rewarded by ${interaction.user.username}`,
