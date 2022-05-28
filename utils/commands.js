@@ -17,9 +17,4 @@ const commands = {
   create_invite: "create_invite" // done
 };
 
-/*
-  - Create an Invite for the server
-  - 
-*/
-
 module.exports = commands;

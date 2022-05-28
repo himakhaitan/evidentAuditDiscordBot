@@ -12,6 +12,7 @@ const {
   community_count,
   suggest,
   create_invite,
+  reward,
 } = require("../utils/commands");
 
 // Components import
@@ -28,6 +29,7 @@ const { Community_count } = require("../components/community_count");
 const { Owner } = require("../components/owner");
 const { Suggest } = require("../components/suggest");
 const { Create_invite } = require("../components/create_invite");
+const { Reward } = require("../components/reward");
 
 module.exports = {
   name: "interactionCreate",
@@ -75,6 +77,9 @@ module.exports = {
         break;
       case create_invite:
         Create_invite(interaction);
+        break;
+      case reward:
+        Reward(interaction);
         break;
     }
   },
