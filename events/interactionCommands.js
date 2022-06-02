@@ -13,6 +13,7 @@ const {
   suggest,
   create_invite,
   reward,
+  bump_remind,
   poll,
 } = require("../utils/commands");
 
@@ -32,6 +33,7 @@ const { Owner } = require("../components/owner");
 const { Suggest } = require("../components/suggest");
 const { Create_invite } = require("../components/create_invite");
 const { Reward } = require("../components/reward");
+const { BumpRemind } = require("../components/bump_remind");
 
 module.exports = {
   name: "interactionCreate",
@@ -85,6 +87,9 @@ module.exports = {
         break;
       case poll:
         Poll(interaction);
+        break;
+      case bump_remind:
+        BumpRemind(interaction);
         break;
     }
   },

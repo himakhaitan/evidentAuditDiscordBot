@@ -7,7 +7,7 @@ const commands = {
   clear: "clear", // done
   create_embed: "create_embed", // done
   help: "help", // done
-  poll: "poll", 
+  poll: "poll", // done
   rules: "rules", // done
   community_count: "community_count", //done
   socials: "socials", //done
