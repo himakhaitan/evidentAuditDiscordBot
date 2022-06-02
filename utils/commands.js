@@ -3,7 +3,7 @@ const commands = {
   ask_help: "ask_help", // done
   avatar: "avatar", // done
   reward: "reward", // done
-  bump_remind: "bump_remind", 
+  bump_remind: "bump_remind", // done
   clear: "clear", // done
   create_embed: "create_embed", // done
   help: "help", // done
