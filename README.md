@@ -1,9 +1,10 @@
 <p align="center">
-<img src="https://badgen.net/github/issues/himakhaitan/evidentAuditDiscordBot?style=flat-square&scale=1.2">
-<img alt="node-current" src="https://badgen.net/github/stars/himakhaitan/evidentAuditDiscordBot?style=flat-square&scale=1.2">
-<img alt="APM" src="https://badgen.net/github/forks/himakhaitan/evidentAuditDiscordBot?style=flat-square&scale=1.2">
-<img alt="node-current" src="https://badgen.net/github/closed-issues/himakhaitan/evidentAuditDiscordBot?style=flat-square&scale=1.2">
-<img alt="node-current" src="https://badgen.net/github/license/himakhaitan/evidentAuditDiscordBot?style=flat-square&scale=1.2&color=green">
+<img src="https://badgen.net/github/issues/himakhaitan/evidentAuditDiscordBot?style=flat-square&scale=1.4">
+&nbsp;
+<img alt="node-current" src="https://badgen.net/github/stars/himakhaitan/evidentAuditDiscordBot?style=flat-square&scale=1.4">&nbsp;
+<img alt="APM" src="https://badgen.net/github/forks/himakhaitan/evidentAuditDiscordBot?style=flat-square&scale=1.4">&nbsp;
+<img alt="node-current" src="https://badgen.net/github/closed-issues/himakhaitan/evidentAuditDiscordBot?style=flat-square&scale=1.4">&nbsp;
+<img alt="node-current" src="https://badgen.net/github/license/himakhaitan/evidentAuditDiscordBot?style=flat-square&scale=1.4&color=green">
 </p>
 <h1 align="center">
   <br>
