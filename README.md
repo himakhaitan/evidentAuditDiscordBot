@@ -86,9 +86,17 @@ Below is a list of slash commands that can be used to interact with the server v
 
 ### about_us
 
+```
+/about_us
+```
+
+The command is used to know about the community. A detailed embed is posted to the channel where the command is used.
+
 ### ask_help
 
-```/ask_help [topic] [description] [ask_from]```
+```
+/ask_help [topic] [description] [ask_from]
+```
 
 The command used to ask for help from peers in the server. The bot will ping the role taken by [ask_role] and will post the embed in the channel.
 
