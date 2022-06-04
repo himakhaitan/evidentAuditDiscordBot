@@ -84,8 +84,14 @@ Below is a list of slash commands that can be used to interact with the server v
 | suggest | Post Server Suggestions |
 | vote | Vote for the Community |
 
-<!-- ### about_us
+### about_us
+
 ### ask_help
+
+```/ask_help [topic] [description] [ask_from]```
+
+The command used to ask for help from peers in the server. The bot will ping the role taken by [ask_role] and will post the embed in the channel.
+
 ### avatar
 ### bump_remind
 ### clear
@@ -99,4 +105,4 @@ Below is a list of slash commands that can be used to interact with the server v
 ### rules
 ### socials
 ### suggest
-### vote -->
+### vote
