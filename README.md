@@ -103,6 +103,15 @@ The command used to ask for help from peers in the server. The bot will ping the
 <img src="https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/resources/commands/ask_help.gif?raw=true">
 
 ### avatar
+
+```
+/avatar [tag]
+```
+
+The command is used to get the avatar of a user. [tag] is the mention of the user and is optional. If [tag] is not provided, the avatar of the user who used the command will be posted.
+
+<img src="https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/resources/commands/avatar.gif?raw=true">
+
 ### bump_remind
 ### clear
 ### community_count
