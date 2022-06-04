@@ -100,6 +100,8 @@ The command is used to know about the community. A detailed embed is posted to t
 
 The command used to ask for help from peers in the server. The bot will ping the role taken by [ask_role] and will post the embed in the channel.
 
+<img src="https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/resources/commands/ask_help.gif?raw=true">
+
 ### avatar
 ### bump_remind
 ### clear
