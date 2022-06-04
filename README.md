@@ -1,3 +1,4 @@
+<div id="top"></div>
 <p align="center">
 <img src="https://badgen.net/github/issues/himakhaitan/evidentAuditDiscordBot?style=flat-square&scale=1.4">
 &nbsp;
@@ -72,11 +73,105 @@ Below is the list of all the major frameworks and libraries used in the project.
 
 ## Getting Started
 
+To get a local copy of the bot up and running follow these simple steps
+
+- Clone the repository
+
+```bash
+git clone https://github.com/himakhaitan/evidentAuditDiscordBot.git
+```
+
+- Install the dependencies
+
+```bash
+npm install
+```
+
+- Follow the <a href="https://github.com/himakhaitan/evidentAuditDiscordBot#installation">Installation</a> Steps
+
+- Ready to run the bot
+
+```bash
+npm start
+```
+
+- Invite the bot to your server using the bot's invite link
+
+You can get the bot's invite link through <a href="https://discord.com/developers/docs">Discord Developer Portal</a>
+
+
 ## Prerequisites
+
+The prerequisites for the bot to run are the following:
+
+- Node.js (v16.14.0 or higher)
+- MongoDB (Locally or Cloud)
+- and you are good to go!
 
 ## Installation
 
+Following are the steps to configure the bot and make it up and running.
+
+- Configure the Environment Variables
+  - Create a file called `.env` in the root directory of the project
+  - Add the following lines to the file
+  ```bash
+  TOKEN=DISCORD_BOT_TOKEN
+  CLIENT_ID=DISCORD_CLIENT_ID
+  GUILD_ID=YOUR_SERVER_ID
+  DB_URL=MONGO_DB_URL
+  SUGGESTION=SUGGESTION_CHANNEL_ID
+  MODS=MODS_ROLE_ID
+  ```
+  - Replace the `TOKEN`, `CLIENT_ID`, `GUILD_ID`, and `DB_URL` with the actual values
+  - Replace the `MODS` with the actual Discord IDs of the moderators
+  - Replace the `SUGGESTION` with the actual Discord ID of the suggestion channel
+  - Note: You can also use the `sample.env` file to get a template of the file
+
+- Edit `config.js` in the root directory.
+
+```js
+const authorInfo = {
+  url: "https://twitter.com/evidentaudit",
+  iconURL:
+    "https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/brand/logo.png?raw=true",
+};
+
+const embedColor = "#56BBF1";
+
+const guildId = "902805157144821793";
+
+const emoji = {
+  twitter: "961985224730886174",
+  linkedin: "902878634870714409",
+  github: "902878634082185276",
+  scam: "927206837202354206",
+  pepeyes: "927212874584178708",
+  evidentaudit: "933670080271777883",
+};
+
+module.exports = {
+  authorInfo,
+  embedColor,
+  emoji,
+  guildId,
+};
+```
+
+Replace the dummy data with the actual values. You need to have a developers account to get all these values.
+
 ## Roadmap
+
+- [ ] Add role specific commands
+- [ ] Add a command to add a user to a role
+- [ ] Add a command to remove a user from a role
+- [ ] Add a command to check bounties
+- [ ] Make `/create_embed` more flexible
+  - [ ] Enable the command to take channel as an argument 
+
+See the [open issues](https://github.com/himakhaitan/evidentAuditDiscordBot/issues) for a full list of proposed features (and known issues). Feel free to create one.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Commands
 
@@ -103,29 +198,29 @@ Below is a list of slash commands that can be used to interact with the server v
 
 ### about_us
 
+The command is used to know about the community. A detailed embed is posted to the channel where the command is used.
+
 ```
 /about_us
 ```
 
-The command is used to know about the community. A detailed embed is posted to the channel where the command is used.
-
 ### ask_help
+
+The command used to ask for help from peers in the server. The bot will ping the role taken by [ask_role] and will post the embed in the channel.
 
 ```
 /ask_help [topic] [description] [ask_from]
 ```
 
-The command used to ask for help from peers in the server. The bot will ping the role taken by [ask_role] and will post the embed in the channel.
-
 <img src="https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/resources/commands/ask_help.gif?raw=true">
 
 ### avatar
 
+The command is used to get the avatar of a user. [tag] is the mention of the user and is optional. If [tag] is not provided, the avatar of the user who used the command will be posted.
+
 ```
 /avatar [tag]
 ```
-
-The command is used to get the avatar of a user. [tag] is the mention of the user and is optional. If [tag] is not provided, the avatar of the user who used the command will be posted.
 
 <img src="https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/resources/commands/avatar.gif?raw=true">
 
@@ -155,17 +250,17 @@ The command is used to get the avatar of a user. [tag] is the mention of the use
 
 ### vote
 
+The command is used to vote for the community. The bot will post the embed in the channel with a url.
+
 ```
 /vote
 ```
-
-The command is used to vote for the community. The bot will post the embed in the channel with a url.
 
 <img src="https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/resources/commands/avatar.gif?raw=true">
 
 ## Contact
 
-<p>Feel free to reach me out on any of the above mediums (LinkedIn, Mail and Twitter for fast responses). See you in my inbox/DMs</p>
+<p>Feel free to reach me out on any of the above mediums (LinkedIn, Mail and Twitter for fast responses). See you in my inbox / DMs 📩 😃</p>
 
 <p>
   <a href="mailto:himanshukhaitan108@gmail.com" target="_blank"><img height="40" src = "https://github.com/himakhaitan/himakhaitan/blob/main/icons/mail.png?raw=true"></a>
@@ -174,4 +269,4 @@ The command is used to vote for the community. The bot will post the embed in th
   <a href="https://www.instagram.com/himakhaitan/" target="_blank"><img height="40" src = "https://github.com/himakhaitan/himakhaitan/blob/main/icons/insta.png?raw=true"></a>&nbsp;&nbsp;<a href="https://dev.to/hima_khaitan" target="_blank"><img height="40" src = "https://github.com/himakhaitan/himakhaitan/blob/main/icons/dev.png?raw=true"></a>
 </p>
 
->> Hapilly turning Coffee into Code ☕️ 💻
+> Hapilly turning Coffee into Code ☕️ 💻
