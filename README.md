@@ -63,6 +63,8 @@ Join the server <a href="https://discord.gg/wQTr244dX6">here</a> to experience t
 
 Ofcourse, the bot doesn't server for servers of all niche so I will try to add more features in the near future. You may also suggest changes or new features by creating a new issue <a href="https://github.com/himakhaitan/evidentAuditDiscordBot/issues">here</a>.
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Built With
 
 Below is the list of all the major frameworks and libraries used in the project.
@@ -70,6 +72,8 @@ Below is the list of all the major frameworks and libraries used in the project.
 - [Discord.js](https://discord.js.org/#/)
 - [Node.js](https://nodejs.org/en/)
 - [Mongoose](https://mongoosejs.com/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Getting Started
 
@@ -99,6 +103,7 @@ npm start
 
 You can get the bot's invite link through <a href="https://discord.com/developers/docs">Discord Developer Portal</a>
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Prerequisites
 
@@ -107,6 +112,8 @@ The prerequisites for the bot to run are the following:
 - Node.js (v16.14.0 or higher)
 - MongoDB (Locally or Cloud)
 - and you are good to go!
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Installation
 
@@ -160,6 +167,8 @@ module.exports = {
 
 Replace the dummy data with the actual values. You need to have a developers account to get all these values.
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Roadmap
 
 - [ ] Add role specific commands
@@ -195,6 +204,8 @@ Below is a list of slash commands that can be used to interact with the server v
 | socials         | Connect with use below so that you don't miss out |
 | suggest         | Post Server Suggestions                           |
 | vote            | Vote for the Community                            |
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### about_us
 
@@ -258,6 +269,8 @@ The command is used to vote for the community. The bot will post the embed in th
 
 <img src="https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/resources/commands/avatar.gif?raw=true">
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Contact
 
 <p>Feel free to reach me out on any of the above mediums (LinkedIn, Mail and Twitter for fast responses). See you in my inbox / DMs 📩 😃</p>
@@ -268,5 +281,7 @@ The command is used to vote for the community. The bot will post the embed in th
   <a href="https://twitter.com/hima_khaitan" target="_blank"><img height="40" src = "https://github.com/himakhaitan/himakhaitan/blob/main/icons/twitter.png?raw=true"></a>&nbsp;&nbsp;
   <a href="https://www.instagram.com/himakhaitan/" target="_blank"><img height="40" src = "https://github.com/himakhaitan/himakhaitan/blob/main/icons/insta.png?raw=true"></a>&nbsp;&nbsp;<a href="https://dev.to/hima_khaitan" target="_blank"><img height="40" src = "https://github.com/himakhaitan/himakhaitan/blob/main/icons/dev.png?raw=true"></a>
 </p>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 > Hapilly turning Coffee into Code ☕️ 💻
