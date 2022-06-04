@@ -351,7 +351,7 @@ The command is used to vote for the community. The bot will post the embed in th
 /vote
 ```
 
-<img src="https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/resources/commands/avatar.gif?raw=true">
+<img src="https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/resources/commands/vote.gif?raw=true">
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
