@@ -1,3 +1,10 @@
+<p align="center">
+<img src="https://badgen.net/github/issues/himakhaitan/evidentAuditDiscordBot?style=flat-square&scale=1.2">
+<img alt="node-current" src="https://badgen.net/github/stars/himakhaitan/evidentAuditDiscordBot?style=flat-square&scale=1.2">
+<img alt="APM" src="https://badgen.net/github/forks/himakhaitan/evidentAuditDiscordBot?style=flat-square&scale=1.2">
+<img alt="node-current" src="https://badgen.net/github/closed-issues/himakhaitan/evidentAuditDiscordBot?style=flat-square&scale=1.2">
+<img alt="node-current" src="https://badgen.net/github/license/himakhaitan/evidentAuditDiscordBot?style=flat-square&scale=1.2&color=green">
+</p>
 <h1 align="center">
   <br>
   <a><img src="https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/brand/logo_transparent.png?raw=true" width="200"></a>
@@ -17,6 +24,7 @@ Bot is equipped with a variety of commands that can be used to interact with the
 <img src="https://github.com/himakhaitan/himakhaitan/blob/main/icons/nodejs.png?raw=true" height="60">&nbsp; &nbsp; &nbsp;
 <img src="https://github.com/himakhaitan/himakhaitan/blob/main/icons/meta-image-removebg-preview.png?raw=true" height="60">&nbsp; &nbsp; &nbsp;
 <img src="https://github.com/himakhaitan/himakhaitan/blob/main/icons/mongo.png?raw=true" height="60">&nbsp; &nbsp; &nbsp;
+<img src="https://github.com/himakhaitan/himakhaitan/blob/main/icons/js.png?raw=true" height="60">
 </p>
 
 <img src="https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/resources/Header.png?raw=true">
