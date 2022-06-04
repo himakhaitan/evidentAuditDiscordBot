@@ -237,27 +237,99 @@ The command is used to get the avatar of a user. [tag] is the mention of the use
 
 ### bump_remind
 
+The command is used to remind the server staff to bump the server. The bot will ping the moderator role and will post the embed in the channel where the command is used.
+
+``` 
+/bump_remind
+```
+
 ### clear
+
+The command is used to purge messages within the channel. [amount] is the number of messages to be purged and is optional. If [amount] is not provided, the bot will delete the last 100 messages.
+
+```
+/clear [amount]
+```
 
 ### community_count
 
+The command is used to know your peers through stats. The bot will post the embed in the channel where the command is used.
+
+```
+/community_count
+```
+
 ### create_embed
+
+The command is used to create an embed. [author_name] is the title of the embed. [description] is the description of the embed and is compulsory. [color] is the hex color of the embed and is optional. The bot will post the embed in the channel where the command is used.
+
+```
+/create_embed [author_name] [description] [color]
+```
 
 ### create_invite
 
+The command is used to create a server invite. The bot will post the invite in the channel where the command is used.
+
+```
+/create_invite
+```
+
 ### help
+
+The command is used to display all the commands and description. The bot will post the embed in the channel where the command is used. You can select multiple categories from the drop down menu in the embed.
+
+```
+/help
+```
 
 ### owner
 
+The command is used to know the owner's information. The bot will post the embed in the channel where the command is used.
+
+```
+/owner
+```
+
 ### poll
+
+The command is used to create a poll. [question] is the question of the poll and is compulsory. Rest takes the option and emojis to be used.
+
+```
+/poll [question] [option-one] [emoji-one] [option-two] [emoji-two]
+```
 
 ### reward
 
+The command is used to reward a peer. [user] is the mention of the user and is compulsory. Points are fixed while rewarding. The bot will post the embed in the channel where the command is used.
+
+```
+/reward [user]
+```
+
 ### rules
+
+The command is used to get the Code of Conduct. The bot will post the embed in the channel where the command is used.
+
+```
+/rules
+```
 
 ### socials
 
+The command is used to connect with us on different social platforms so that you don't miss out. The bot will post the embed in the channel where the command is used.
+
+```
+/socials
+```
+
 ### suggest
+
+The command is used to post server suggestions. The bot will post the embed in the suggestion channel. [title] takes the title for the suggestion. [description] takes the description for the suggestion. [anonymous] is a boolean which let's user choose if they wanna reveal their name or not.
+
+```
+/suggest [title] [description] [anonymous]
+```
 
 ### vote
 
