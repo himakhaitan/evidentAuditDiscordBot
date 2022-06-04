@@ -44,6 +44,7 @@ Bot is equipped with a variety of commands that can be used to interact with the
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
+    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#commands">Commands</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -61,28 +62,44 @@ Join the server <a href="https://discord.gg/wQTr244dX6">here</a> to experience t
 
 Ofcourse, the bot doesn't server for servers of all niche so I will try to add more features in the near future. You may also suggest changes or new features by creating a new issue <a href="https://github.com/himakhaitan/evidentAuditDiscordBot/issues">here</a>.
 
+## Built With
+
+Below is the list of all the major frameworks and libraries used in the project.
+
+- [Discord.js](https://discord.js.org/#/)
+- [Node.js](https://nodejs.org/en/)
+- [Mongoose](https://mongoosejs.com/)
+
+## Getting Started
+
+## Prerequisites
+
+## Installation
+
+## Roadmap
+
 ## Commands
 
 Below is a list of slash commands that can be used to interact with the server via bot
 
-| Command | Use |
-| --- | --- |
-| about_us | Know about the Community |
-| ask_help | Ask help from peers in the server |
-| avatar | Get the avatar of a user |
-| bump_remind | Reminds server staff to bump the server |
-| clear | Purge Messages within the channel |
-| community_count | Know your peers through stats |
-| create_embed | Create an embed |
-| create_invite | Create Server Invite |
-| help | Displays All Bot Commands and Description |
-| owner | Displays Owner's Information |
-| poll | Create a poll |
-| reward | Reward a peer |
-| rules | Get the Code of Conduct |
-| socials | Connect with use below so that you don't miss out |
-| suggest | Post Server Suggestions |
-| vote | Vote for the Community |
+| Command         | Use                                               |
+| --------------- | ------------------------------------------------- |
+| about_us        | Know about the Community                          |
+| ask_help        | Ask help from peers in the server                 |
+| avatar          | Get the avatar of a user                          |
+| bump_remind     | Reminds server staff to bump the server           |
+| clear           | Purge Messages within the channel                 |
+| community_count | Know your peers through stats                     |
+| create_embed    | Create an embed                                   |
+| create_invite   | Create Server Invite                              |
+| help            | Displays All Bot Commands and Description         |
+| owner           | Displays Owner's Information                      |
+| poll            | Create a poll                                     |
+| reward          | Reward a peer                                     |
+| rules           | Get the Code of Conduct                           |
+| socials         | Connect with use below so that you don't miss out |
+| suggest         | Post Server Suggestions                           |
+| vote            | Vote for the Community                            |
 
 ### about_us
 
@@ -113,15 +130,44 @@ The command is used to get the avatar of a user. [tag] is the mention of the use
 <img src="https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/resources/commands/avatar.gif?raw=true">
 
 ### bump_remind
+
 ### clear
+
 ### community_count
+
 ### create_embed
+
 ### create_invite
+
 ### help
+
 ### owner
+
 ### poll
+
 ### reward
+
 ### rules
+
 ### socials
+
 ### suggest
+
 ### vote
+
+```
+/vote
+```
+
+The command is used to vote for the community. The bot will post the embed in the channel with a url.
+
+<img src="https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/resources/commands/avatar.gif?raw=true">
+
+## Contact
+
+<p>
+  <a href="mailto:himanshukhaitan108@gmail.com" target="_blank"><img height="40" src = "https://github.com/himakhaitan/himakhaitan/blob/main/icons/mail.png?raw=true"></a>
+  <a href="https://www.linkedin.com/in/himakhaitan" target="_blank"><img height="40" src = "https://github.com/himakhaitan/himakhaitan/blob/main/icons/linkedin.png?raw=true"></a>&nbsp;&nbsp;<a href="https://himakhaitan.medium.com/" target="_blank"><img height="40" src = "https://github.com/himakhaitan/himakhaitan/blob/main/icons/medium.png?raw=true"></a>&nbsp;&nbsp;
+  <a href="https://twitter.com/hima_khaitan" target="_blank"><img height="40" src = "https://github.com/himakhaitan/himakhaitan/blob/main/icons/twitter.png?raw=true"></a>&nbsp;&nbsp;
+  <a href="https://www.instagram.com/himakhaitan/" target="_blank"><img height="40" src = "https://github.com/himakhaitan/himakhaitan/blob/main/icons/insta.png?raw=true"></a>&nbsp;&nbsp;<a href="https://dev.to/hima_khaitan" target="_blank"><img height="40" src = "https://github.com/himakhaitan/himakhaitan/blob/main/icons/dev.png?raw=true"></a>
+</p>
