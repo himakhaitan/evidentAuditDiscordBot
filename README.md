@@ -1,3 +1,11 @@
+<p align="center">
+<img src="https://badgen.net/github/issues/himakhaitan/evidentAuditDiscordBot?style=flat-square&scale=1.4">
+&nbsp;
+<img alt="node-current" src="https://badgen.net/github/stars/himakhaitan/evidentAuditDiscordBot?style=flat-square&scale=1.4">&nbsp;
+<img alt="APM" src="https://badgen.net/github/forks/himakhaitan/evidentAuditDiscordBot?style=flat-square&scale=1.4">&nbsp;
+<img alt="node-current" src="https://badgen.net/github/closed-issues/himakhaitan/evidentAuditDiscordBot?style=flat-square&scale=1.4">&nbsp;
+<img alt="node-current" src="https://badgen.net/github/license/himakhaitan/evidentAuditDiscordBot?style=flat-square&scale=1.4&color=green">
+</p>
 <h1 align="center">
   <br>
   <a><img src="https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/brand/logo_transparent.png?raw=true" width="200"></a>
@@ -21,11 +29,28 @@ Bot is equipped with a variety of commands that can be used to interact with the
 </p>
 
 <img src="https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/resources/Header.png?raw=true">
-<p align="center">
-<img src="https://badgen.net/github/issues/himakhaitan/evidentAuditDiscordBot?style=flat-square&scale=1.4">
-&nbsp;
-<img alt="node-current" src="https://badgen.net/github/stars/himakhaitan/evidentAuditDiscordBot?style=flat-square&scale=1.4">&nbsp;
-<img alt="APM" src="https://badgen.net/github/forks/himakhaitan/evidentAuditDiscordBot?style=flat-square&scale=1.4">&nbsp;
-<img alt="node-current" src="https://badgen.net/github/closed-issues/himakhaitan/evidentAuditDiscordBot?style=flat-square&scale=1.4">&nbsp;
-<img alt="node-current" src="https://badgen.net/github/license/himakhaitan/evidentAuditDiscordBot?style=flat-square&scale=1.4&color=green">
-</p>
+
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#commands">Commands</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+## About The Project
+
+<img src="https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/resources/Project.png?raw=true">
+
