@@ -243,6 +243,8 @@ The command is used to remind the server staff to bump the server. The bot will 
 /bump_remind
 ```
 
+<img src="https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/resources/commands/bump_remind.gif?raw=true">
+
 ### clear
 
 The command is used to purge messages within the channel. [amount] is the number of messages to be purged and is optional. If [amount] is not provided, the bot will delete the last 100 messages.
@@ -251,6 +253,8 @@ The command is used to purge messages within the channel. [amount] is the number
 /clear [amount]
 ```
 
+<img src="https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/resources/commands/clear.gif?raw=true">
+
 ### community_count
 
 The command is used to know your peers through stats. The bot will post the embed in the channel where the command is used.
@@ -258,6 +262,8 @@ The command is used to know your peers through stats. The bot will post the embe
 ```
 /community_count
 ```
+
+<img src="https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/resources/commands/community_count.gif?raw=true">
 
 ### create_embed
 
@@ -274,6 +280,8 @@ The command is used to create a server invite. The bot will post the invite in t
 ```
 /create_invite
 ```
+
+<img src="https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/resources/commands/create_invite.gif?raw=true">
 
 ### help
 
@@ -299,6 +307,8 @@ The command is used to create a poll. [question] is the question of the poll and
 /poll [question] [option-one] [emoji-one] [option-two] [emoji-two]
 ```
 
+<img src="https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/resources/commands/poll.gif?raw=true">
+
 ### reward
 
 The command is used to reward a peer. [user] is the mention of the user and is compulsory. Points are fixed while rewarding. The bot will post the embed in the channel where the command is used.
@@ -306,6 +316,8 @@ The command is used to reward a peer. [user] is the mention of the user and is c
 ```
 /reward [user]
 ```
+
+<img src="https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/resources/commands/reward.gif?raw=true">
 
 ### rules
 
