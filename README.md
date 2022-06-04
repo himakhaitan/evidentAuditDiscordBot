@@ -52,5 +52,12 @@ Bot is equipped with a variety of commands that can be used to interact with the
 
 ## About The Project
 
+<p>The project is a Discord bot powered by the <a href="https://discord.js.org/#/">Discord.js</a> library. It contains several several slash commands which can be used to interact with the server, giving joiners a place to get involved and a personalised environment</p>
+
 <img src="https://github.com/himakhaitan/evidentAuditDiscordBot/blob/main/resources/Project.png?raw=true">
 
+The bot tries to make server as user-friendly as possible and make tasks like **asking for help** and **rewarding the helper** easier.
+
+Join the server <a href="https://discord.gg/wQTr244dX6">here</a> to experience the bot.
+
+Ofcourse, the bot doesn't server for servers of all niche so I will try to add more features in the near future. You may also suggest changes or new features by creating a new issue <a href="https://github.com/himakhaitan/evidentAuditDiscordBot/issues">here</a>.
