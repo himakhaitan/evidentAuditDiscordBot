@@ -3,7 +3,7 @@ const { avatar } = require("../utils/commands");
 
 const data = new SlashCommandBuilder()
   .setName(avatar)
-  .setDescription("Know about the Community")
+  .setDescription("Get the avatar of a user")
   .addUserOption((mention) =>
     mention
       .setName("tag")
